@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+}
+
+.container{
+    min-width: 400px;
+    box-shadow: 1px 1px 10px #ccc;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    flex-basis: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.menu-item:hover{
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgb(0, 115, 255);
+}
+
+.menu-item:nth-child(2){
+    margin-left: 10px;
+}
+
+.form{
+    margin-top: 15px;
+    padding-top: 25px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group input{
+    min-height: 30px;
+    padding: 5px; 
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.input-group input::placeholder{
+    color: rgb(198, 198, 198);
+}
+
+.required{
+    color: red;
+}
+
+.btn{
+ padding: 10px 25px;
+ border: 0;
+ font-size: 16;
+ color: white;
+ background-color: rgb(0, 115, 255);
+ border-radius: 30px;
+ text-align: center;
+ cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(0, 51, 255);
+}
+
+.btn-wrapper{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.active{
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgb(0, 115, 255);
+}
+
+.result{
+    margin-top: 25px;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+
+}
